@@ -1,5 +1,5 @@
 {% set name = "rabbitmq-delayed-message-exchange" %}
-{% set version = "3.10.2" %}
+{% set version = "3.11.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases/download/{{ version }}/rabbitmq_delayed_message_exchange-{{ version }}.ez
-  sha256: 0cc9d64ee96deb532c217b99ab22cbf877e7388b756477391ca17dd6e6678d46
+  sha256: 84d75c95b2cb0905e883fc4a8ce262533ff686e9ad13e8e1969aa4dab1c068d0
 
 build:
   number: 0
