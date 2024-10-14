@@ -17,7 +17,7 @@ build:
 requirements:
   build:
   run:
-    - rabbitmq-server >=3.13.0,<3.14
+    - rabbitmq-server >=4.0.2,<4.1
 
 test:
   commands:
